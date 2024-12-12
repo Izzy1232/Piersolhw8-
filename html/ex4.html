@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piersol's Example 4</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <h1><a href="../index.html">Link to Start Page</a></h1>
+  <h2>Piersol's Example 4</h2>
+  <h3>View console to see JavaScript Output</h3>
+
+  <title>FormData Key/Value Pairs</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      margin-top: 20px;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+<h2>Form</h2>
+<form id="infoForm">
+  <p>
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" required>
+  </p>
+  <p>
+    <label for="age">Age:</label>
+    <input type="number" name="age" id="age" required>
+  </p>
+  <p>
+    <label for="location">location:</label>
+    <select name="location" id="location" required>
+      <option value="Los Angeles">Los Angeles</option>
+      <option value="Orange County">Orange County </option>
+      <option value="Riveside">  Riverside</option>
+      <option value="San Diego">San Diego</option>
+    </select>
+  </p>
+  <button type="submit">Submit</button>
+</form>
+<h2>Form Data Key/Value Pairs</h2>
+<table id="dataTable">
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+
+  <script src="../js/ex4.js"></script>  
+</body>
+</html>
